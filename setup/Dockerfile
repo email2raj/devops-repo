@@ -1,4 +1,4 @@
-FROM jenkins/jenkins:2.452.3-lts-jdk21
+FROM jenkins/jenkins:2.504.1-lts-jdk21
 USER root
 RUN apt-get update && apt-get install -y apt-transport-https \
        ca-certificates curl gnupg2 \
